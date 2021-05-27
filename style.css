@@ -170,5 +170,15 @@ ul{
   width: 37%;
   position: relative;
   position: absolute;
-  right: 4rem;
+  right: 17rem;
+  top: 7rem;
+}
+
+.logo p{
+  font-family:"genuine";
+  color: white;
+  font-size: 6rem;
+  position: relative;
+  right: 30rem;
+  bottom: 16rem;
 }
