@@ -127,12 +127,23 @@ ul{
 
 #extra-info-div{
   position: relative;
-  top: 100vh;
 }
 
-#logo{
+.logo{
+  top: 100vh;
   position: absolute;
   background-color: #ff4654;
   height: 30vh;
-  width: 100%;
+  width: 50%;
+  background: url(assets/freeklogo_transparent);
+  background-position: center;
+}
+
+.blue{
+  position: absolute;
+  left: 50%;
+  top: 100vh;
+  height: 30vh;
+  width: 50%;
+  background-color: rgb(15, 23, 42);
 }
