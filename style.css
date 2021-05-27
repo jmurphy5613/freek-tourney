@@ -4,6 +4,10 @@
   box-sizing: border-box;
   width: auto;
 }
+@font-face {
+  font-family:"genuine";
+  src: url("fonts/GENUINE.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "sm";
