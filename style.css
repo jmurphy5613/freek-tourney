@@ -5,8 +5,6 @@
   width: auto;
 }
 
-
-
 @font-face {
   font-family: "sm";
   src: url("fonts/monumentextended-ultrabold-webfont.woff2"), format("woff2");
@@ -27,6 +25,17 @@
   width: 100%;
 }
 
+h1 .special{
+  font-family: sm;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 10rem;
+  font-size: 4rem;
+}
+
 h1 {
   font-family: sm;
   display: flex;
@@ -35,8 +44,6 @@ h1 {
   align-items: center;
   padding-top: 10%;
   font-size: 4rem;
-  position: relative;
-  
 }
 
 @media only screen and (max-width : 1024px) {
@@ -72,11 +79,12 @@ h1 {
 #particles-js {
   background-color: rgb(15, 23, 42);
   background-repeat: no-repeat;
-  background-size: cover;
+  position: fixed;
   height: 100%;
   width: 100%;
-  position: fixed;
+  z-index: -1;
   background-position: 50% 50%;
+
 }
 
 h2 {
@@ -85,7 +93,6 @@ h2 {
   color: white;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .valorantTitle {
@@ -110,10 +117,22 @@ h2 {
   position: relative;
 }
 
-.links ul{
-  list-style-type: none;
+ul{
+  list-style: none;
 }
 
 .links ul li{
   
+}
+
+#extra-info-div{
+  position: relative;
+  top: 100vh;
+}
+
+#logo{
+  position: absolute;
+  background-color: #ff4654;
+  height: 30vh;
+  width: 100%;
 }
