@@ -130,20 +130,41 @@ ul{
 }
 
 .logo{
+  display:flex;
+  align-items:center;
+  justify-content:center;
   top: 100vh;
   position: absolute;
   background-color: #ff4654;
-  height: 30vh;
-  width: 50%;
-  background: url(assets/freeklogo_transparent);
-  background-position: center;
+  height: 90vh;
+  width: 100%;
 }
 
 .blue{
   position: absolute;
-  left: 50%;
-  top: 100vh;
-  height: 30vh;
-  width: 50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  top: 190vh;
+  height: 60vh;
+  width: 100%;
   background-color: rgb(15, 23, 42);
+}
+
+.blue p{
+  
+  font-family: sm;
+  color: white;
+  font-size: 2rem;
+}
+
+#logo-img{
+  width: 30%;
+}
+
+#omen{
+  width: 37%;
+  position: relative;
+  position: absolute;
+  right: 4rem;
 }
