@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="countUp.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,28 +15,42 @@
     <meta name="robots" content="index,follow">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <title>Valorant Tracker</title>
+    <script async src="dist/purecounter.js"></script>
+    <title>FREEKCORD TOURNAMENTs</title>
 </head>
 <body>
     <div id="particles-js"></div>
     <div class="main-info-div">  
         <div id="extra-info-div">
-            <div class="logo"><img src="assets/brim (2).png" alt="" id="omen"><p>LARGE PRIZES:</p></div>
-            <div class="blue"></div>
+            <div class="logo">
+                <img src="assets/brim (2).png" alt="" id="omen">
+                <p>LARGE PRIZES:<br>16 teams<br>$150+<br>June 11th and 12th</p>
+            </div>
         </div>  
         <header>
-            <h1 class="special">FREEKCORD TOURNAMENTS</h1>
+            <h1 class="special counter">FREEKCORD TOURNAMENTS</h1>
             <h3 class="valorantTitle">VALORANT</h3>
         </header>
         <section class="links">
             <ul>
-                <li><button>Discord</button></li>
+                <li><button id="start-button">Discord</button></li>
                 <li><button>Twitch</button></li>
             </ul>
         </section>
     </div>
-
     <script>AOS.init();</script>  
+    <script>
+        const options = {
+            prefix: '$',
+            suffix: '+',
+        };
+        let demo = new CountUp('myTargetElement', 150, options);
+        if (!demo.error) {
+            demo.start();
+        } else {
+            console.error(demo.error);
+        }
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="valParticles.js"></script> 

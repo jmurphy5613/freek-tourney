@@ -91,12 +91,15 @@ h1 {
 
 }
 
-h2 {
+.blue h2 {
   font-family: "Montserrat", sans-serif;
   display: flex;
   color: white;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  bottom: 20rem;
+  text-align: center;
+  position: absolute;
+  bottom: 50rem;
 }
 
 .valorantTitle {
@@ -150,7 +153,7 @@ ul{
   align-items:center;
   justify-content:center;
   top: 190vh;
-  height: 60vh;
+  height: 100vh;
   width: 100%;
   background-color: rgb(15, 23, 42);
 }
@@ -181,4 +184,5 @@ ul{
   position: relative;
   right: 30rem;
   bottom: 16rem;
+  top: 1%;
 }
