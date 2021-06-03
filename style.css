@@ -122,6 +122,7 @@ h1 {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 100%;
 }
 
 ul{
@@ -177,6 +178,8 @@ ul{
   top: 7rem;
 }
 
+a { color: inherit; } 
+
 .logo p{
   font-family:"genuine";
   color: white;
@@ -185,4 +188,65 @@ ul{
   right: 30rem;
   bottom: 16rem;
   top: 1%;
+}
+
+.button {
+  display: flex;
+  margin: 2rem;
+  height: 50px;
+  padding: 0;
+  background: #7289da;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #7289da;
+}
+
+.button:active {
+  background: #7289da;
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 24px;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  background: #7289da;
+}
+
+.button-dif {
+  display: flex;
+  margin: 2rem;
+  height: 50px;
+  padding: 0;
+  background: #6441a5;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button__text-dif,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 24px;
+  height: 100%;
 }
